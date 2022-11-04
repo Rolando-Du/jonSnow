@@ -66,7 +66,7 @@ const Header = () => {
 
     return () => window.removeEventListener('scroll', stickyHeaderFunc)
   });
-
+  
   const menuToggle = () => menuRef.current.classList.toggle
     ('active_menu');
 

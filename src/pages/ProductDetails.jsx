@@ -156,11 +156,11 @@ const ProductDetails = () => {
                         <h4>Leave your experience</h4>
                         <form action="" onSubmit={submitHandler}>
                           <div className="form_group">
-                            <input 
-                            type="text" 
-                            placeholder='Enter name' 
-                            ref={reviewUser} 
-                            required
+                            <input
+                              type="text"
+                              placeholder='Enter name'
+                              ref={reviewUser}
+                              required
                             />
                           </div>
 
@@ -188,7 +188,7 @@ const ProductDetails = () => {
                               rows={4}
                               type="text"
                               placeholder='Review Message...'
-                              required 
+                              required
                             />
                           </div>
 

@@ -36,24 +36,24 @@ const Signup = () => {
       const user = await userCredential.user;
 
       const storageRef = ref(storage, `images/${Date.now() + username}`);
-      const uploadTask = uploadBytesResumable(storageRef, file) 
+      const uploadTask = uploadBytesResumable(storageRef, file)
 
       uploadTask.on((error) => {
         toast.error(error.message)
       }, () => {
-        getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL) => {
+        getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
           //Update user profile
           await updateProfile(user, {
             displayName: username,
             photoURL: downloadURL,
           });
-            //Store user date in firestore database
-            await setDoc(doc(db, 'user', user.uid), {
-              uid: user.uid,
-              displayName: username,
-              email,
-              photoURL: downloadURL,
-            })
+          //Store user date in firestore database
+          await setDoc(doc(db, 'user', user.uid), {
+            uid: user.uid,
+            displayName: username,
+            email,
+            photoURL: downloadURL,
+          })
 
         });
       }
@@ -69,7 +69,6 @@ const Signup = () => {
     }
 
   };
-
 
   return (
     <Helmet title='Signup'>

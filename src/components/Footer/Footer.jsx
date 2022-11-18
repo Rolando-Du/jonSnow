@@ -5,7 +5,8 @@ import './footer.css';
 const Footer = () => {
 
   const year = new Date().getFullYear()
-  return <footer className="footer">
+  return (
+  <footer className="footer">
     <Container>
       <Row>
         <Col lg='4' className='mb-4' md='6'>
@@ -101,6 +102,7 @@ const Footer = () => {
       </Row>
     </Container>
   </footer>
+  )
 }
 
 export default Footer;

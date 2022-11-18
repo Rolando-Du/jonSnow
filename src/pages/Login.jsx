@@ -29,48 +29,43 @@ const Login = () => {
       setLoading(false);
       toast.success('Successfully logget in');
       navigate('/checkout');
-      
+
     } catch (error) {
       setLoading(false);
       toast.error(error.message)
     }
   }
 
-
   return (
     <Helmet title='Login'>
       <section>
         <Container>
           <Row>
+            {
+              loading ? <Col lg='12' className='text-center'><h5 className='fw-bold'>Loading......</h5></Col> : <Col lg='6' className='m-auto text-center'>
+                <h3 className="fw-bold mb-4">Login</h3>
+                <Form className='auth_form' onSubmit={signIn}>
+                  <FormGroup className='form_group'>
+                    <input
+                      type="email"
+                      placeholder='john_doe@mail.com'
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)} />
+                  </FormGroup>
+                  <FormGroup className='form_group'>
+                    <input
+                      type="password"
+                      placeholder='********'
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)} />
+                  </FormGroup>
 
-          {
-          
-            loading ? <Col lg='12' className='text-center'><h5 className='fw-bold'>Loading......</h5></Col> :             <Col lg='6' className='m-auto text-center'>
-            <h3 className="fw-bold mb-4">Login</h3>
-            <Form className='auth_form' onSubmit={signIn}>
-              <FormGroup className='form_group'>
-                <input 
-                type="email" 
-                placeholder='john_doe@mail.com' 
-                value={email} 
-                onChange={(e) => setEmail(e.target.value)} />
-              </FormGroup>
-              <FormGroup className='form_group'>
-                <input 
-                type="password" 
-                placeholder='********' 
-                value={password} 
-                onChange={(e) => setPassword(e.target.value)} />
-              </FormGroup>
-
-              <button type='submit' className="buy_btn auth_btn">Login</button>
-              <p>Don't have an account?{" "}
-                <Link to='/signup'>Create an account</Link></p>
-            </Form>
-          </Col>  
-          }
-
-
+                  <button type='submit' className="buy_btn auth_btn">Login</button>
+                  <p>Don't have an account?{" "}
+                    <Link to='/signup'>Create an account</Link></p>
+                </Form>
+              </Col>
+            }
           </Row>
         </Container>
       </section>

@@ -90,10 +90,10 @@
 .profile_actions {
     position: absolute;
     top: 98%;
-    left: 0;
-    width: 150px;
+    left: -25px;
+    width: 100px;
     z-index: 10;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     align-items: center;
     flex-direction: column;

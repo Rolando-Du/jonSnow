@@ -54,15 +54,15 @@ const Footer = () => {
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Gafas</Link>
+                <Link to='#'>Glasses</Link>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Cascos</Link>
+                <Link to='#'>Helmet</Link>
               </ListGroupItem>
 
               <ListGroupItem className='ps-0 border-0'>
-                <Link to='#'>Pantalones</Link>
+                <Link to='#'>Pants</Link>
               </ListGroupItem>
             </ListGroup>
           </div>

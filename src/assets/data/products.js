@@ -32,9 +32,9 @@ import productImg22 from "../images/accesorio-1.png";
 const products = [
   {
     id: "01",
-    productName: " Campera ",
+    productName: " Jacket ",
     imgUrl: productImg1,
-    category: "campera",
+    category: "jacket",
     price: 9090,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -51,9 +51,9 @@ const products = [
 
   {
     id: "02",
-    productName: "Campera",
+    productName: "Jacket",
     imgUrl: productImg2,
-    category: "campera",
+    category: "jacket",
     price: 8500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -74,9 +74,9 @@ const products = [
 
   {
     id: "03",
-    productName: "Campera",
+    productName: "Jacket",
     imgUrl: productImg3,
-    category: "campera",
+    category: "jacket",
     price: 17300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -96,9 +96,9 @@ const products = [
   },
   {
     id: "04",
-    productName: "Casco",
+    productName: "Helmet",
     imgUrl: productImg4,
-    category: "casco",
+    category: "helmet",
     price: 5000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -118,9 +118,9 @@ const products = [
   },
   {
     id: "05",
-    productName: "Casco",
+    productName: "Helmet",
     imgUrl: productImg5,
-    category: "casco",
+    category: "helmet",
     price: 7500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -141,9 +141,9 @@ const products = [
 
   {
     id: "06",
-    productName: "Casco",
+    productName: "Helmet",
     imgUrl: productImg6,
-    category: "casco",
+    category: "helmet",
     price: 6500,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -164,9 +164,9 @@ const products = [
 
   {
     id: "07",
-    productName: "Casco",
+    productName: "Helmet",
     imgUrl: productImg7,
-    category: "casco",
+    category: "helmet",
     price: 7300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -186,9 +186,9 @@ const products = [
   },
   {
     id: "08",
-    productName: "Pantalón",
+    productName: "Pants",
     imgUrl: productImg8,
-    category: "pantalon",
+    category: "pants",
     price: 6300,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -209,9 +209,9 @@ const products = [
 
   {
     id: "09",
-    productName: "Pantalón",
+    productName: "Pants",
     imgUrl: productImg9,
-    category: "pantalon",
+    category: "pants",
     price: 4173,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -232,9 +232,9 @@ const products = [
 
   {
     id: "10",
-    productName: "Pantalón",
+    productName: "Pants",
     imgUrl: productImg10,
-    category: "pantalon",
+    category: "pants",
     price: 5089,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -255,9 +255,9 @@ const products = [
 
   {
     id: "11",
-    productName: "Pantalón",
+    productName: "Pants",
     imgUrl: productImg11,
-    category: "pantalon",
+    category: "pants",
     price: 9112,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -278,9 +278,9 @@ const products = [
 
   {
     id: "12",
-    productName: "Guates",
+    productName: "Glove",
     imgUrl: productImg12,
-    category: "guate",
+    category: "glove",
     price: 2799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -300,9 +300,9 @@ const products = [
   },
   {
     id: "13",
-    productName: "Guantes",
+    productName: "Glove",
     imgUrl: productImg13,
-    category: "guante",
+    category: "glove",
     price: 2900,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -322,9 +322,9 @@ const products = [
   },
   {
     id: "14",
-    productName: "Guantes",
+    productName: "Glove",
     imgUrl: productImg14,
-    category: "guante",
+    category: "glove",
     price: 5799,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
@@ -506,9 +506,9 @@ const products = [
 
   {
     id: "22",
-    productName: "Accesorios",
+    productName: "Accessories",
     imgUrl: productImg22,
-    category: "accesorio",
+    category: "accessories",
     price: 7000,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",

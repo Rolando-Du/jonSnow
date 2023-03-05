@@ -23,8 +23,8 @@ const Shop = () => {
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'accesorio') {
-      const filteredProducts = products.filter(item => item.category === 'accesorio')
+    if (filterValue === 'accessories') {
+      const filteredProducts = products.filter(item => item.category === 'accessories')
 
       setProductsData(filteredProducts);
     }
@@ -35,38 +35,38 @@ const Shop = () => {
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'pantalon') {
-      const filteredProducts = products.filter(item => item.category === 'pantalon')
+    if (filterValue === 'pants') {
+      const filteredProducts = products.filter(item => item.category === 'pants')
 
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'guante') {
-      const filteredProducts = products.filter(item => item.category === 'guante')
+    if (filterValue === 'glove') {
+      const filteredProducts = products.filter(item => item.category === 'glove')
 
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'campera') {
-      const filteredProducts = products.filter(item => item.category === 'campera')
+    if (filterValue === 'jacket') {
+      const filteredProducts = products.filter(item => item.category === 'jacket')
 
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'gafa') {
-      const filteredProducts = products.filter(item => item.category === 'gafa')
+    if (filterValue === 'glasses') {
+      const filteredProducts = products.filter(item => item.category === 'glasses')
 
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'bota') {
-      const filteredProducts = products.filter(item => item.category === 'bota')
+    if (filterValue === 'shoes') {
+      const filteredProducts = products.filter(item => item.category === 'shoes')
 
       setProductsData(filteredProducts);
     }
 
-    if (filterValue === 'casco') {
-      const filteredProducts = products.filter(item => item.category === 'casco')
+    if (filterValue === 'helmet') {
+      const filteredProducts = products.filter(item => item.category === 'helmet')
 
       setProductsData(filteredProducts);
     }
@@ -90,13 +90,13 @@ const Shop = () => {
               <div className="filter_widget">
                 <select onChange={handleFilter}>
                   <option>Filter By Category</option>
-                  <option value="accesorio">Accesorios</option>
-                  <option value="bota">Botas</option>
-                  <option value="campera">Camperas</option>
-                  <option value="casco">Cascos</option>
-                  <option value="gafa">Gafas</option>
-                  <option value="guante">Guantes</option>
-                  <option value="pantalon">Pantalones</option>
+                  <option value="accessories">Accessories</option>
+                  <option value="shoes">Shoes</option>
+                  <option value="jacket">jackets</option>
+                  <option value="helmet">Helmet</option>
+                  <option value="glasses">Glasses</option>
+                  <option value="glove">Glove</option>
+                  <option value="pants">Pants</option>
                   <option value="sky">Sky</option>
                   <option value="snowboard">Snowboard</option>
                 </select>

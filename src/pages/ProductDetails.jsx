@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 import { Container, Row, Col } from 'reactstrap';
 import { useParams } from 'react-router-dom';
